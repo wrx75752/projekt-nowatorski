@@ -1,0 +1,20 @@
+[package]
+name = "commms"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-trait = "0.1.77"
+chrono = "0.4.31"
+futures = "0.3.30"
+libp2p = { version = "0.53.2", features = ["tokio", "gossipsub", "mdns", "noise", "macros", "tcp", "yamux", "quic"] }
+log = "0.4.20"
+pretty_env_logger = "0.5.0"
+serde = { version = "1.0.193", features = ["derive"] }
+serde_json = "1.0.108"
+tokio = { version = "1.35.1", features = ["full"] }
+tracing = "0.1.40"
+tracing-subscriber = { version = "0.3.18", features = ["env-filter"] }
+uuid = { version = "1.6.1", features = ["v4", "v8", "serde"] }
