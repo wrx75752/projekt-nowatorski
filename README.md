@@ -1,6 +1,10 @@
 # Komunikator Grupowy Peer2Peer 
 z wykorzystaniem Rust i libP2P
 
+
+Projekt znajduje się w oddzielnym repozytorium: [retoro](https://github.com/CieciaOne/retoro)
+
+
 ## Opis Tematu:
 
 Komunikator grupowy Peer2Peer (P2P) wzorowany na Discord oraz IRC to innowacyjny projekt, który ma na celu stworzenie platformy do bezpośredniej, zdecentralizowanej komunikacji grupowej. W projekcie wykorzystywane są język programowania Rust oraz biblioteka libp2p, co zapewnia efektywność, bezpieczeństwo i skalowalność.
